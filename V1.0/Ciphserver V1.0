@@ -1,0 +1,17 @@
+First attempt at creating a useful home server.
+
+Have a lot of unnecessray daemons/services running. A lot of bloat in the home directory as well due to experimentation.
+A diargram in this directory shows the servers features.
+In addition to this, I also had a minecraft server running[flawlessly].
+Tried implementing docker but as I'm still learning it, faced some issues and confusion.
+
+Next iteration of the server V1.1 will be tremendously better.
+
+CONCLUSIONS FROM THIS ITERATION:
+1)Have multiple users and not just a single elevated priveleged user.
+2)AdGuard > PiHole
+3)Docker is insanely powerful. Implement that.
+4)Don't install unnecessary stuff cos it looks cool.[unless its actually pretty cool]
+5)Keep a list of what ports are in use. [avoid overlapping of multiple web servers on the same port. Messy stuff]
+6)Find a way to have the jellyfin movie directory be in the same place where you download the torrents. [Avoid double copies of the same file in different locations]
+
