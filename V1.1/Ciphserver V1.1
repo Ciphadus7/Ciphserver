@@ -1,0 +1,6 @@
+Setting up the server:
+
+First I removed all the 'snap' packages. IMO, they're completely useless. Flatpak and the native package manager are just superior.
+Secondly. I disabled and masked the service 'systemd-networkd-wait-online.service' With my hardware, my connection was not identified during intial bootup so i was stuck on this service running for ~2 mins. Not worth it. Disabled it.
+Made 3 users. 1)Root user which has access to everything. 2)Another root user that is for trusted users. 3)A normal user with no priveleges [was learning about permissions and who needs to have what.]
+AdGuard was a breeze to set up. No complaints here.
