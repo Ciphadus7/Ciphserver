@@ -8,3 +8,14 @@ AdGuard was a breeze to set up. No complaints here.
 Faced an issue with Transmission: Permission denied to access the folders where I'd be strong stuff.
 Solution: https://askubuntu.com/questions/221081/permission-denied-when-downloading-with-transmission-daemon
 
+Important thing to note with Jellyfin:
+Set the folder permissions so that Jellyfin can access the media files.
+```sudo chmod -R 755 /path/to/media```
+
+
+Changed the infrasturcture a bit. Now, I'll only run my tranmission service from 10pm IST to 6AM IST[bandwith hog]
+
+Enabled backups using rsync. My home directory will be snapshotted every night at 10pm. Seems like a good enough backup time.
+
+Encountered a humongous issue with the partition. Out of 492GB available, for some reason the main partition is only using 93GB. Makes absolutely no sense. I think it has something to do with the LVM partition. 
+Been trying to fix it but I think the only thing i can do is reinstall the server
